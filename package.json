@@ -1,0 +1,36 @@
+{
+  "name": "@minimouli/antman",
+  "version": "1.0.0",
+  "keywords": [
+    "minimouli",
+    "project=antman",
+    "school=epitech"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepack": "yarn run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minimouli/antman.git"
+  },
+  "bugs": {
+    "url": "https://github.com/minimouli/antman/issues"
+  },
+  "homepage": "https://github.com/minimouli/antman",
+  "license": "MIT",
+  "files": [
+    "dist/**/*",
+    "res/**/*",
+    "mouli.json"
+  ],
+  "dependencies": {
+    "@minimouli/framework": "^1.0.1",
+    "@minimouli/fs": "^1.0.1",
+    "@minimouli/types": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "typescript": "^4.5.4"
+  }
+}

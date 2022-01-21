@@ -1,0 +1,10 @@
+{
+    "rootDir": "./dist",
+    "binaries": {
+        "antman": "antman/antman",
+        "giantman": "giantman/giantman"
+    },
+    "suites": {
+        "default": []
+    }
+}
