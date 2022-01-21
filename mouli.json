@@ -9,7 +9,11 @@
             "easy-songs.suite.js",
             "easy-html.suite.js",
             "easy-images.suite.js",
-            "easy-edgecases.suite.js"
+            "easy-edgecases.suite.js",
+            "medium-songs.suite.js",
+            "medium-html.suite.js",
+            "medium-images.suite.js",
+            "medium-edgecases.suite.js"
         ]
     }
 }
