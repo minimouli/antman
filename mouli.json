@@ -5,6 +5,11 @@
         "giantman": "giantman/giantman"
     },
     "suites": {
-        "default": []
+        "default": [
+            "easy-songs.suite.js",
+            "easy-html.suite.js",
+            "easy-images.suite.js",
+            "easy-edgecases.suite.js"
+        ]
     }
 }
