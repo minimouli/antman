@@ -13,7 +13,10 @@
             "medium-songs.suite.js",
             "medium-html.suite.js",
             "medium-images.suite.js",
-            "medium-edgecases.suite.js"
+            "medium-edgecases.suite.js",
+            "hard-songs.suite.js",
+            "hard-html.suite.js",
+            "hard-edgecases.suite.js"
         ]
     }
 }
