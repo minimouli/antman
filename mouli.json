@@ -16,7 +16,8 @@
             "medium-edgecases.suite.js",
             "hard-songs.suite.js",
             "hard-html.suite.js",
-            "hard-edgecases.suite.js"
+            "hard-edgecases.suite.js",
+            "extrahard-songs.suite.js"
         ]
     }
 }
