@@ -6,6 +6,7 @@
     },
     "suites": {
         "default": [
+            "error.suite.js",
             "easy-songs.suite.js",
             "easy-html.suite.js",
             "easy-images.suite.js",
