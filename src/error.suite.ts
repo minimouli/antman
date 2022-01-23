@@ -54,14 +54,14 @@ suite('Error handling', () => {
             const file = Path.fromMouli('res/doesnotexist')
 
             const exec1 = new Executable('antman', [
-                file
+                file, '1'
             ])
             await exec1.execute()
 
             expect(exec1).toExitWith(84)
 
             const exec2 = new Executable('giantman', [
-                file
+                file, '1'
             ])
             await exec2.execute()
 
