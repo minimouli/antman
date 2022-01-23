@@ -18,7 +18,11 @@
             "hard-songs.suite.js",
             "hard-html.suite.js",
             "hard-images.suite.js",
-            "hard-edgecases.suite.js"
+            "hard-edgecases.suite.js",
+            "extrahard-songs.suite.js",
+            "extrahard-html.suite.js",
+            "extrahard-images.suite.js",
+            "extrahard-edgecases.suite.js"
         ]
     }
 }
