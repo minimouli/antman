@@ -35,7 +35,7 @@ suite('Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(25)
+            observer.checkScoreIsAbove(25) // estimated score
         })
 
         test('Rick Astley - Never Gonna Give You Up', async () => {
@@ -61,7 +61,7 @@ suite('Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(25)
+            observer.checkScoreIsAbove(25) // estimated score, < 35
         })
 
         test('Eminem - Rap God', async () => {
@@ -87,7 +87,7 @@ suite('Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(25)
+            observer.checkScoreIsAbove(25) // estimated score
         })
 
         test('Rihanna - Work', async () => {
@@ -113,7 +113,7 @@ suite('Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(25)
+            observer.checkScoreIsAbove(25) // verified score
         })
 
         test('Harry Belafonte - Jump in the Line', async () => {
@@ -139,7 +139,7 @@ suite('Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(25)
+            observer.checkScoreIsAbove(25) // estimated score, < 32
         })
 
         test('Bug Hunter - Disco! in the Panic Room', async () => {
@@ -165,7 +165,7 @@ suite('Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(11)
+            observer.checkScoreIsAbove(25) // estimated score
         })
 
         test('Baio - Sister of Pearl', async () => {
@@ -191,7 +191,7 @@ suite('Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(25)
+            observer.checkScoreIsAbove(25) // verified score
         })
 
         test('Shirley Ellis - The New Game', async () => {
@@ -217,7 +217,7 @@ suite('Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(25)
+            observer.checkScoreIsAbove(25) // estimated score
         })
 
         test('Lyre Le Temps - Rob the Banker', async () => {
@@ -243,7 +243,7 @@ suite('Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(25)
+            observer.checkScoreIsAbove(25) // estimated score, < 29
         })
 
         test('System of a Down - Chop Suey!', async () => {
@@ -269,7 +269,7 @@ suite('Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(25)
+            observer.checkScoreIsAbove(25) // estimated score, < 30
         })
 
     })

@@ -35,7 +35,7 @@ suite('Medium Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(15)
+            observer.checkScoreIsAbove(15) // verified score
         })
 
         test('Rick Astley - Never Gonna Give You Up', async () => {
@@ -61,7 +61,7 @@ suite('Medium Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(15)
+            observer.checkScoreIsAbove(23) // verified score
         })
 
         test('Eminem - Rap God', async () => {
@@ -87,7 +87,7 @@ suite('Medium Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(15)
+            observer.checkScoreIsAbove(15) // estimated score
         })
 
         test('Rihanna - Work', async () => {
@@ -113,7 +113,7 @@ suite('Medium Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(15)
+            observer.checkScoreIsAbove(15) // estimated score, < 24
         })
 
         test('Harry Belafonte - Jump in the Line', async () => {
@@ -139,7 +139,7 @@ suite('Medium Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(15)
+            observer.checkScoreIsAbove(21) // verified score
         })
 
         test('Bug Hunter - Disco! in the Panic Room', async () => {
@@ -165,7 +165,7 @@ suite('Medium Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(11)
+            observer.checkScoreIsAbove(11) // verified score
         })
 
         test('Baio - Sister of Pearl', async () => {
@@ -191,7 +191,7 @@ suite('Medium Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(15)
+            observer.checkScoreIsAbove(15) // estimated score, < 19
         })
 
         test('Shirley Ellis - The New Game', async () => {
@@ -217,7 +217,7 @@ suite('Medium Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(15)
+            observer.checkScoreIsAbove(15) // verified score
         })
 
         test('Lyre Le Temps - Rob the Banker', async () => {
@@ -243,7 +243,7 @@ suite('Medium Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(15)
+            observer.checkScoreIsAbove(19) // verified score
         })
 
         test('System of a Down - Chop Suey!', async () => {
@@ -269,7 +269,7 @@ suite('Medium Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(15)
+            observer.checkScoreIsAbove(19) // verified score
         })
 
     })

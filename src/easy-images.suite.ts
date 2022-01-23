@@ -39,7 +39,7 @@ suite('Easy Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(2)
+            observer.checkScoreIsAbove(2) // estimated score
         })
 
         test('Epitech', async () => {
@@ -69,7 +69,7 @@ suite('Easy Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(2)
+            observer.checkScoreIsAbove(2) // estimated score
         })
 
         test('Kureuil', async () => {
@@ -99,7 +99,7 @@ suite('Easy Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(2)
+            observer.checkScoreIsAbove(2) // estimated score
         })
 
         test('Pain au chocolat', async () => {
@@ -129,7 +129,7 @@ suite('Easy Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(2)
+            observer.checkScoreIsAbove(2) // verified score
         })
 
         test('Twilight', async () => {
@@ -159,7 +159,7 @@ suite('Easy Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(2)
+            observer.checkScoreIsAbove(2) // verified score
         })
 
         test('Animal crossing', async () => {
@@ -189,7 +189,7 @@ suite('Easy Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(2)
+            observer.checkScoreIsAbove(2) // estimated score
         })
 
         test('Jenkins', async () => {
@@ -219,7 +219,7 @@ suite('Easy Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(2)
+            observer.checkScoreIsAbove(2) // estimated score
         })
 
         test('Nuit étoilée', async () => {
@@ -249,7 +249,7 @@ suite('Easy Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(2)
+            observer.checkScoreIsAbove(2) // verified score
         })
 
     })

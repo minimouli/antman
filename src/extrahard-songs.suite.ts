@@ -35,7 +35,7 @@ suite('Extra Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(65)
+            observer.checkScoreIsAbove(41) // verified score
         })
 
         test('Rick Astley - Never Gonna Give You Up', async () => {
@@ -61,7 +61,7 @@ suite('Extra Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(65)
+            observer.checkScoreIsAbove(65) // verified score
         })
 
         test('Eminem - Rap God', async () => {
@@ -87,7 +87,7 @@ suite('Extra Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(65)
+            observer.checkScoreIsAbove(42) // verified score
         })
 
         test('Rihanna - Work', async () => {
@@ -113,7 +113,7 @@ suite('Extra Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(65)
+            observer.checkScoreIsAbove(52) // verified score
         })
 
         test('Harry Belafonte - Jump in the Line', async () => {
@@ -139,7 +139,7 @@ suite('Extra Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(64)
+            observer.checkScoreIsAbove(64) // verified score
         })
 
         test('Bug Hunter - Disco! in the Panic Room', async () => {
@@ -165,7 +165,7 @@ suite('Extra Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(65)
+            observer.checkScoreIsAbove(26) // verified score
         })
 
         test('Baio - Sister of Pearl', async () => {
@@ -191,7 +191,7 @@ suite('Extra Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(65)
+            observer.checkScoreIsAbove(50) // verified score
         })
 
         test('Shirley Ellis - The New Game', async () => {
@@ -217,7 +217,7 @@ suite('Extra Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(65)
+            observer.checkScoreIsAbove(50) // verified score
         })
 
         test('Lyre Le Temps - Rob the Banker', async () => {
@@ -243,7 +243,7 @@ suite('Extra Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(61)
+            observer.checkScoreIsAbove(61) // verified score
         })
 
         test('System of a Down - Chop Suey!', async () => {
@@ -269,7 +269,7 @@ suite('Extra Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(62)
+            observer.checkScoreIsAbove(62) // verified score
         })
 
     })

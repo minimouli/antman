@@ -35,7 +35,7 @@ suite('Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(26)
+            observer.checkScoreIsAbove(26) // verified score
         })
 
         test('Pixel', async () => {
@@ -61,7 +61,7 @@ suite('Hard Threshold', () => {
 
             const observer = new Observer(file, minified)
 
-            observer.checkScoreIsAbove(27)
+            observer.checkScoreIsAbove(27) // verified score
         })
 
     })
